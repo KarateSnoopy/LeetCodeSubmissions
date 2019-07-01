@@ -5,6 +5,7 @@
     <ClCompile Include="pch.cpp" />
     <ClCompile Include="Array-2-BestTimeToBuySell.cpp" />
     <ClCompile Include="Array-1-RemoveDups.cpp" />
+    <ClCompile Include="Array-3-RotateArray.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.h" />

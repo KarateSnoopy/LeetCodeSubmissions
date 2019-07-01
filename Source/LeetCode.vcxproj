@@ -156,6 +156,7 @@
   <ItemGroup>
     <ClCompile Include="Array-1-RemoveDups.cpp" />
     <ClCompile Include="Array-2-BestTimeToBuySell.cpp" />
+    <ClCompile Include="Array-3-RotateArray.cpp" />
     <ClCompile Include="LeetCode.cpp" />
     <ClCompile Include="pch.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>

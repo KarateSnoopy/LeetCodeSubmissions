@@ -48,7 +48,7 @@ bool VerifyResult( std::vector<int> input, std::vector<int> expectedOutput )
     }
     std::cout << std::endl;
 
-    int newLength = removeDuplicates(input.data(), input.size());
+    int newLength = removeDuplicates(input.data(), (int)input.size());
 
     std::cout << "Output: ";
     for (int i = 0; i < newLength; i++)

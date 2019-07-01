@@ -6,9 +6,11 @@
 
 void TestArray1();
 bool TestArray2();
+void TestArray3();
 
 int main()
 {
     //TestArray1();
     //TestArray2();
+    TestArray3();
 }

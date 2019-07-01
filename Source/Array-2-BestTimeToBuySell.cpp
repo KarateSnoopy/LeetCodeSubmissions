@@ -61,7 +61,7 @@ public:
 
     int maxProfit(vector<int> prices)
     {
-        return maxProfitHelper(prices.data(), prices.size());
+        return maxProfitHelper(prices.data(), (int)prices.size());
     }
 };
 

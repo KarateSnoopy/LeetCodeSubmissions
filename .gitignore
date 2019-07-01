@@ -6,6 +6,8 @@
 *.lo
 *.o
 *.obj
+.vs
+x64/
 
 # Precompiled Headers
 *.gch
