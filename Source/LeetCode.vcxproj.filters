@@ -6,6 +6,7 @@
     <ClCompile Include="Array-2-BestTimeToBuySell.cpp" />
     <ClCompile Include="Array-1-RemoveDups.cpp" />
     <ClCompile Include="Array-3-RotateArray.cpp" />
+    <ClCompile Include="Array-4-TwoSum.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.h" />
