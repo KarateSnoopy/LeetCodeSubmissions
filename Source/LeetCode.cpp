@@ -8,11 +8,17 @@ void TestArray1();
 bool TestArray2();
 void TestArray3();
 void TestArray4();
+void TestArray5();
+void TestArray6();
+void TestArray7();
 
 int main()
 {
     //TestArray1();
     //TestArray2();
     //TestArray3();
-    TestArray4();
+    //TestArray4();
+    //TestArray5();
+    //TestArray6();
+    TestArray7();
 }

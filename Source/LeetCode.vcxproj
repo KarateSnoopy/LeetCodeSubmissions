@@ -158,6 +158,9 @@
     <ClCompile Include="Array-2-BestTimeToBuySell.cpp" />
     <ClCompile Include="Array-3-RotateArray.cpp" />
     <ClCompile Include="Array-4-TwoSum.cpp" />
+    <ClCompile Include="Array-5-Duplicate.cpp" />
+    <ClCompile Include="Array-6-SingleNumber.cpp" />
+    <ClCompile Include="Array-7-Intersection.cpp" />
     <ClCompile Include="LeetCode.cpp" />
     <ClCompile Include="pch.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>

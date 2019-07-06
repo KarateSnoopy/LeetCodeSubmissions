@@ -7,6 +7,9 @@
     <ClCompile Include="Array-1-RemoveDups.cpp" />
     <ClCompile Include="Array-3-RotateArray.cpp" />
     <ClCompile Include="Array-4-TwoSum.cpp" />
+    <ClCompile Include="Array-5-Duplicate.cpp" />
+    <ClCompile Include="Array-6-SingleNumber.cpp" />
+    <ClCompile Include="Array-7-Intersection.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.h" />
