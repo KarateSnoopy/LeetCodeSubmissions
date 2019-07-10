@@ -10,6 +10,8 @@
     <ClCompile Include="Array-5-Duplicate.cpp" />
     <ClCompile Include="Array-6-SingleNumber.cpp" />
     <ClCompile Include="Array-7-Intersection.cpp" />
+    <ClCompile Include="String-1-Reverse.cpp" />
+    <ClCompile Include="String-2-ReverseInt.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.h" />
