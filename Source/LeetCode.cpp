@@ -13,16 +13,9 @@ void TestArray6();
 void TestArray7();
 void TestString1();
 void TestString2();
+void TestString3();
 
 int main()
 {
-    //TestArray1();
-    //TestArray2();
-    //TestArray3();
-    //TestArray4();
-    //TestArray5();
-    //TestArray6();
-    //TestArray7();
-    //TestString1();
-    TestString2();
+    TestString3();
 }
