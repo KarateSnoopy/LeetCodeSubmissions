@@ -13,6 +13,7 @@
     <ClCompile Include="String-1-Reverse.cpp" />
     <ClCompile Include="String-2-ReverseInt.cpp" />
     <ClCompile Include="String-3-UniqueChar.cpp" />
+    <ClCompile Include="String-4-StringToInt.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.h" />

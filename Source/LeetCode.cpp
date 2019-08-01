@@ -14,8 +14,9 @@ void TestArray7();
 void TestString1();
 void TestString2();
 void TestString3();
+void TestString4();
 
 int main()
 {
-    TestString3();
+    TestString4();
 }
