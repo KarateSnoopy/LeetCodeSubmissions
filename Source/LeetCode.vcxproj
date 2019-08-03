@@ -23,7 +23,7 @@
     <ProjectGuid>{3592998B-C410-4626-A36B-7BD9DE42876A}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>LeetCode</RootNamespace>
-    <WindowsTargetPlatformVersion>10.0.18272.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -172,6 +172,7 @@
     <ClCompile Include="String-2-ReverseInt.cpp" />
     <ClCompile Include="String-3-UniqueChar.cpp" />
     <ClCompile Include="String-4-StringToInt.cpp" />
+    <ClCompile Include="String-5-StrStr.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

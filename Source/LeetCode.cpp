@@ -14,17 +14,9 @@ void TestArray7();
 void TestString1();
 void TestString2();
 void TestString3();
-<<<<<<< HEAD
 void TestString5();
 
 int main()
 {
 	TestString5();
-=======
-void TestString4();
-
-int main()
-{
-    TestString4();
->>>>>>> 2a22f3180ea922b73067ba6f45692280e43bd18c
 }
