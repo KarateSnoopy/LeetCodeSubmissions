@@ -49,7 +49,7 @@ bool VerifyResults4( vector<int> input, int target, vector<int> output )
     if( returnVec.size() != output.size() )
         return false;
 
-    for(int i=0; i<output.size(); i++)
+    for(size_t i=0; i<output.size(); i++)
     {
         if( returnVec[i] != output[i] ) return false;
     }

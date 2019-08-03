@@ -61,7 +61,7 @@ bool VerifyResults7( vector<int> input1, vector<int> input2, vector<int> output 
     if (returnVec.size() != output.size())
         return false;
 
-    for (int i = 0; i < output.size(); i++)
+    for (size_t i = 0; i < output.size(); i++)
     {
         if (returnVec[i] != output[i]) return false;
     }

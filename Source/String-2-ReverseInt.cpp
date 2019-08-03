@@ -9,7 +9,7 @@ int reverseInt(int input)
 {
     std::string protoArray = std::to_string(input);
 
-    int j = 0;
+	size_t j = 0;
     if( input < 0)
     {
         j++;

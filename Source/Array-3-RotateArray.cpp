@@ -38,7 +38,7 @@ bool VerifyResults( vector<int> input, int k, vector<int> output )
     if( input.size() != output.size() )
         return false;
 
-    for(int i=0; i<output.size(); i++)
+    for(size_t i=0; i<output.size(); i++)
     {
         if( input[i] != output[i] ) return false;
     }

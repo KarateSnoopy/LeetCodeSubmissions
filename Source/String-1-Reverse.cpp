@@ -27,7 +27,7 @@ bool VerifyResultsString1( vector<char> s, vector<char> expected )
 {
     reverseString(s);
 
-    for (int i = 0; i < s.size(); i++)
+    for (size_t i = 0; i < s.size(); i++)
     {
         if (s[i] != expected[i]) return false;
     }

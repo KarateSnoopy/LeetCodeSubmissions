@@ -9,7 +9,7 @@ int firstUniqChar(std::string input)
 {
     int* alphabet = new int[26] {}; 
 
-    for( int i=0; i<input.length(); i++ )
+    for(size_t i=0; i<input.length(); i++ )
     {
         char letter = input[i];
         if( letter >= 'a' && letter <= 'z' )
@@ -19,7 +19,7 @@ int firstUniqChar(std::string input)
         }
     }
 
-    for( int j=0; j<input.length(); j++ )
+    for(size_t j=0; j<input.length(); j++ )
     {
         char letter = input[j];
         if( letter >= 'a' && letter <= 'z' )
@@ -28,7 +28,7 @@ int firstUniqChar(std::string input)
             if( alphabet[indexToArray] == 1 )
             {
                 delete[] alphabet;
-                return j;
+                return (int)j;
             }
         }
     }
