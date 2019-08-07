@@ -15,6 +15,9 @@
     <ClCompile Include="String-3-UniqueChar.cpp" />
     <ClCompile Include="String-4-StringToInt.cpp" />
     <ClCompile Include="String-5-StrStr.cpp" />
+    <ClCompile Include="LinkedList-1-DeleteNode.cpp" />
+    <ClCompile Include="LinkedList-2-RemoveNFromEnd.cpp" />
+    <ClCompile Include="LinkedList-3-ReverseLinkedList.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.h" />

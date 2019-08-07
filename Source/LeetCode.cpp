@@ -15,8 +15,10 @@ void TestString1();
 void TestString2();
 void TestString3();
 void TestString5();
+void TestLinkedList2();
+void TestLinkedList3();
 
 int main()
 {
-	TestString5();
+	TestLinkedList3();
 }
