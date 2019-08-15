@@ -11,6 +11,7 @@ void TestArray4();
 void TestArray5();
 void TestArray6();
 void TestArray7();
+void TestArray8();
 void TestString1();
 void TestString2();
 void TestString3();
@@ -21,5 +22,5 @@ void TestLinkedList4();
 
 int main()
 {
-	TestLinkedList4();
+    TestArray8();
 }

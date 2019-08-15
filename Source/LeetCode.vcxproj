@@ -161,6 +161,7 @@
     <ClCompile Include="Array-5-Duplicate.cpp" />
     <ClCompile Include="Array-6-SingleNumber.cpp" />
     <ClCompile Include="Array-7-Intersection.cpp" />
+    <ClCompile Include="Array-8-PlusOne.cpp" />
     <ClCompile Include="LeetCode.cpp" />
     <ClCompile Include="LinkedList-1-DeleteNode.cpp" />
     <ClCompile Include="LinkedList-2-RemoveNFromEnd.cpp" />
