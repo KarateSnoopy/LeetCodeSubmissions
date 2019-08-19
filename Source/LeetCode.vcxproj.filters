@@ -20,6 +20,7 @@
     <ClCompile Include="LinkedList-3-ReverseLinkedList.cpp" />
     <ClCompile Include="LinkedList-4-MergeLinkedList.cpp" />
     <ClCompile Include="Array-8-PlusOne.cpp" />
+    <ClCompile Include="Tree-1-Depth.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.h" />

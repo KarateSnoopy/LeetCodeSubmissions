@@ -19,8 +19,9 @@ void TestString5();
 void TestLinkedList2();
 void TestLinkedList3();
 void TestLinkedList4();
+void TestTree1();
 
 int main()
 {
-    TestArray8();
+    TestTree1();
 }
