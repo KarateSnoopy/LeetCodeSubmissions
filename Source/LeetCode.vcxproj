@@ -179,6 +179,7 @@
     <ClCompile Include="String-4-StringToInt.cpp" />
     <ClCompile Include="String-5-StrStr.cpp" />
     <ClCompile Include="Tree-1-Depth.cpp" />
+    <ClCompile Include="Tree-2-ValidBST.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

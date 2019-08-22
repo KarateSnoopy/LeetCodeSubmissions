@@ -20,8 +20,9 @@ void TestLinkedList2();
 void TestLinkedList3();
 void TestLinkedList4();
 void TestTree1();
+void TestTree2();
 
 int main()
 {
-    TestTree1();
+    TestTree2();
 }
