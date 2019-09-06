@@ -162,11 +162,13 @@
     <ClCompile Include="Array-6-SingleNumber.cpp" />
     <ClCompile Include="Array-7-Intersection.cpp" />
     <ClCompile Include="Array-8-PlusOne.cpp" />
+    <ClCompile Include="Dynamic-1-NumStairs.cpp" />
     <ClCompile Include="LeetCode.cpp" />
     <ClCompile Include="LinkedList-1-DeleteNode.cpp" />
     <ClCompile Include="LinkedList-2-RemoveNFromEnd.cpp" />
     <ClCompile Include="LinkedList-3-ReverseLinkedList.cpp" />
     <ClCompile Include="LinkedList-4-MergeLinkedList.cpp" />
+    <ClCompile Include="Math-Hailstone.cpp" />
     <ClCompile Include="pch.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>

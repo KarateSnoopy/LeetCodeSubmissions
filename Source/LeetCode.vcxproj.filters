@@ -22,6 +22,8 @@
     <ClCompile Include="Array-8-PlusOne.cpp" />
     <ClCompile Include="Tree-1-Depth.cpp" />
     <ClCompile Include="Tree-2-ValidBST.cpp" />
+    <ClCompile Include="Dynamic-1-NumStairs.cpp" />
+    <ClCompile Include="Math-Hailstone.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.h" />
