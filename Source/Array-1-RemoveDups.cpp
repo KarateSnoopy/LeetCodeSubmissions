@@ -4,40 +4,82 @@
 #include "pch.h"
 #include <iostream>
 
+//int x = input[inputSize - 1];
+//for (int i = inputSize - 1; i > 0; i--)
+//{
+//    input[i] = input[i - 1];
+//}
+//input[0] = x;
+//while (numsSize > 0)
+//{
+//   numsSize -= 1;
+//}
 
+// nums = { 2, 2, 3, 4 }.  numSize = 4;
 int removeDuplicates(int* nums, int numsSize) 
 {
-    if (numsSize <= 1 || nums == NULL)
+    int x = 1;
+    int y = 2;
+    while( y < numsSize && x < numsSize )
     {
-        return numsSize;
-    }
-
-    int oldLength = numsSize;
-    int* p1 = nums + 0;
-    int* p2 = nums + 0;
-    int newLength = 1;
-
-    while (p2 < nums + numsSize) // p2 < nums[1] if numsSize == 2
-    {
-        if (*p1 == *p2)
+        if (nums[x] == nums[y])
         {
-            p2++;
+            y++;
         }
         else
         {
-            p1++;
-            *p1 = *p2;
-            newLength++;
-            if (p2 == nums + numsSize - 1)
-            {
-                break;
-            }
-            p2++;
+            nums[x] = nums[y];
+            x++;
+            y++;
         }
     }
-
-    return newLength;
+    
+    int length = 0;
+    return length;
 }
+
+
+
+
+
+
+
+
+//
+//
+//int removeDuplicates(int* nums, int numsSize) 
+//{
+//    if (numsSize <= 1 || nums == NULL)
+//    {
+//        return numsSize;
+//    }
+//
+//    int oldLength = numsSize;
+//    int* p1 = nums + 0;
+//    int* p2 = nums + 0;
+//    int newLength = 1;
+//
+//    while (p2 < nums + numsSize) // p2 < nums[1] if numsSize == 2
+//    {
+//        if (*p1 == *p2)
+//        {
+//            p2++;
+//        }
+//        else
+//        {
+//            p1++;
+//            *p1 = *p2;
+//            newLength++;
+//            if (p2 == nums + numsSize - 1)
+//            {
+//                break;
+//            }
+//            p2++;
+//        }
+//    }
+//
+//    return newLength;
+//}
 
 bool VerifyResult( std::vector<int> input, std::vector<int> expectedOutput )
 {
@@ -95,13 +137,14 @@ void TestArray1()
 
 
     bool failed = false;
-    if (!VerifyResult({ }, { })) { std::cout << "Failed!"; failed = true; }
-    if (!VerifyResult({ 1 }, { 1 })) { std::cout << "Failed!"; failed = true; }
-    if (!VerifyResult({ 10,10 }, { 10 })) { std::cout << "Failed!"; failed = true; }
-    if (!VerifyResult({ 1,1,1 }, { 1 })) { std::cout << "Failed!"; failed = true; }
-    if (!VerifyResult({ 2,5,9 }, { 2,5,9 })) { std::cout << "Failed!"; failed = true; }
-    if (!VerifyResult({ -10,-10,5,9 }, { -10,5,9 })) { std::cout << "Failed!"; failed = true; }
-    if (!VerifyResult({ 1,1,2,2,3,3,5,5 }, { 1,2,3,5 })) { std::cout << "Failed!"; failed = true; }
+    if (!VerifyResult({ 2,2,3,4 }, { 2,3,4 })) { std::cout << "Failed!"; failed = true; }
+    //if (!VerifyResult({ }, { })) { std::cout << "Failed!"; failed = true; }
+    //if (!VerifyResult({ 1 }, { 1 })) { std::cout << "Failed!"; failed = true; }
+    //if (!VerifyResult({ 10,10 }, { 10 })) { std::cout << "Failed!"; failed = true; }
+    //if (!VerifyResult({ 1,1,1 }, { 1 })) { std::cout << "Failed!"; failed = true; }
+    //if (!VerifyResult({ 2,5,9 }, { 2,5,9 })) { std::cout << "Failed!"; failed = true; }
+    //if (!VerifyResult({ -10,-10,5,9 }, { -10,5,9 })) { std::cout << "Failed!"; failed = true; }
+    //if (!VerifyResult({ 1,1,2,2,3,3,5,5 }, { 1,2,3,5 })) { std::cout << "Failed!"; failed = true; }
 
     if( !failed ) std::cout << "Success!"; 
 }

@@ -4,7 +4,7 @@
 #include "pch.h"
 #include <iostream>
 
-void rotate(int* nums, int numsSize, int k) 
+void rotate2(int* nums, int numsSize, int k) 
 {
     if(numsSize <= 1)
     {
@@ -26,6 +26,46 @@ void rotate(int* nums, int numsSize, int k)
         k--;
     }
 }
+
+
+
+
+
+
+
+
+//Input: [1, 2, 3, 4, 5, 6, 7] and k = 1
+//rotate 1 steps to the right : [7, 1, 2, 3, 4, 5, 6]
+
+
+void rotate(int* input, int inputSize, int k)
+{
+    k = (k % inputSize);
+
+    while( k > 0 )
+    {
+        int x = input[inputSize-1];
+        for( int i = inputSize-1; i > 0; i-- )
+        {
+            input[i] = input[i-1];
+        }
+        input[0] = x;
+
+        k -= 1;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 void rotateHelper(vector<int>& data, int k)
 {
@@ -49,13 +89,22 @@ bool VerifyResults( vector<int> input, int k, vector<int> output )
 void TestArray3()
 {
     bool failed = false;
-    if (!VerifyResults({ 1 }, 1, { 1 })) failed = true;
-    if (!VerifyResults({ 1,2,3,4 }, 1, { 4,1,2,3 })) failed = true;
-    if (!VerifyResults({ 1,2,3,4 }, 2, { 3,4,1,2 })) failed = true;
-    if (!VerifyResults({ 1,2,3,4 }, 3, { 2,3,4,1 })) failed = true;
-    if (!VerifyResults({ 1,2,3,4 }, 4, { 1,2,3,4 })) failed = true;
-    if (!VerifyResults({ 1,2,3,4 }, 8, { 1,2,3,4 })) failed = true;
-    if (!VerifyResults({ 1,2,3,4 }, 5, { 4,1,2,3 })) failed = true;
+    //if (!VerifyResults({ 1 }, 1, { 1 })) failed = true;
+    //if (!VerifyResults({ 1,2,3,4 }, 1, { 4,1,2,3 })) failed = true;
+    //if (!VerifyResults({ 1,2,3,4 }, 2, { 3,4,1,2 })) failed = true;
+    //if (!VerifyResults({ 1,2,3,4 }, 3, { 2,3,4,1 })) failed = true;
+    //if (!VerifyResults({ 1,2,3,4 }, 4, { 1,2,3,4 })) failed = true;
+    //if (!VerifyResults({ 1,2,3,4 }, 8, { 1,2,3,4 })) failed = true;
+    //if (!VerifyResults({ 1,2,3,4 }, 5, { 4,1,2,3 })) failed = true;
+
+    if (!VerifyResults({ 0,1,2,3 }, 1, { 3,0,1,2 })) failed = true;
+
+    if (!VerifyResults({ 0,1,2,3 }, 2, { 2,3,0,1 })) failed = true;
+    if (!VerifyResults({ 0,1,2,3 }, 3, { 1,2,3,0 })) failed = true;
+
+    if (!VerifyResults({ 0,1 }, 1, { 1,0 })) failed = true;
+    if (!VerifyResults({ 0,1 }, 2, { 0,1 })) failed = true;
+
 
     if (failed) 
         std::cout << "Failure!";
