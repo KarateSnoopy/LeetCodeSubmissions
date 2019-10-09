@@ -24,6 +24,7 @@
     <ClCompile Include="Tree-2-ValidBST.cpp" />
     <ClCompile Include="Dynamic-1-NumStairs.cpp" />
     <ClCompile Include="Math-Hailstone.cpp" />
+    <ClCompile Include="Array-9-Rotate2Dcpp.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.h" />

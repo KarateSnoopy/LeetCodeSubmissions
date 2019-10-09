@@ -12,6 +12,7 @@ void TestArray5();
 void TestArray6();
 void TestArray7();
 void TestArray8();
+void TestArray9();
 void TestString1();
 void TestString2();
 void TestString3();
@@ -21,8 +22,9 @@ void TestLinkedList3();
 void TestLinkedList4();
 void TestTree1();
 void TestTree2();
+void TestDynamic1();
 
 int main()
 {
-    TestTree2();
+    TestArray9();
 }

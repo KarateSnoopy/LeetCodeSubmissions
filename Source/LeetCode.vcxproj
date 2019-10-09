@@ -162,6 +162,7 @@
     <ClCompile Include="Array-6-SingleNumber.cpp" />
     <ClCompile Include="Array-7-Intersection.cpp" />
     <ClCompile Include="Array-8-PlusOne.cpp" />
+    <ClCompile Include="Array-9-Rotate2Dcpp.cpp" />
     <ClCompile Include="Dynamic-1-NumStairs.cpp" />
     <ClCompile Include="LeetCode.cpp" />
     <ClCompile Include="LinkedList-1-DeleteNode.cpp" />
